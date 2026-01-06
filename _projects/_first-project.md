@@ -1,7 +1,7 @@
 ---
 title: First Project
 description: One or two sentences about this project.
-cover: /assets/projects/first-project/cover.jpg
+cover: /assets/projects/first-project/cover.png
 permalink: /projects/first-project/
 ---
 
