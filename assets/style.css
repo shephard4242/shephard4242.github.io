@@ -38,3 +38,8 @@ body {
 .site-title {
   color: #1f2a44;
 }
+
+.site-header a:hover {
+  color: #445c9a;
+  text-decoration: none;
+}
