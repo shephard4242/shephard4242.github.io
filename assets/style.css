@@ -1,6 +1,6 @@
 /* Global background */
 body {
-  background-color: #ABB5C9;   /* page background */"
+  background-color: #ABB5C9;   /* page background */
   font-family: 'Sora', system-ui, sans-serif;
 }
 
@@ -25,5 +25,3 @@ body {
   font-size: 1.2em;
   font-weight: 600;
   
-}
-body { font-size: 22px; }
