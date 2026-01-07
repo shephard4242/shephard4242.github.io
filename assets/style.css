@@ -25,3 +25,16 @@ body {
   font-size: 1.2em;
   font-weight: 600;
   
+/* Header font weight + family */
+.site-header,
+.site-header a,
+.site-title {
+  font-family: 'Sora', system-ui, sans-serif;
+  font-weight: 700;
+}
+
+/* Header text color */
+.site-header a,
+.site-title {
+  color: #1f2a44;
+}
