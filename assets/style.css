@@ -1,46 +1,42 @@
-/* Global background */
+/* =========================
+   Global (entire site)
+   ========================= */
+
 body {
-  background-color: #ABB5C9;   /* page background */
+  background-color: #ABB5C9; /* page background */
   font-family: 'Sora', system-ui, sans-serif;
+  margin: 0;
 }
 
-/* Header background */
+/* =========================
+   Header
+   ========================= */
+
 .site-header {
-  background-color: #D4E2FA;   /* header background */
+  background-color: #D4E2FA; /* header background */
 }
 
-/* Header text + nav */
-.site-header a {
-  font-weight: 700;
-  color: #222;
-  text-decoration: none;
-}
-
-.site-header a:hover {
-  text-decoration: underline;
-}
-
-/* Site title (your name) */
-.site-title {
-  font-size: 1.2em;
-  font-weight: 700;
-}
-  
-/* Header font weight + family */
+/* Header typography (name + nav) */
 .site-header,
 .site-header a,
 .site-title {
   font-family: 'Sora', system-ui, sans-serif;
   font-weight: 700;
-}
-
-/* Header text color */
-.site-header a,
-.site-title {
   color: #1f2a44;
+  text-decoration: none;
 }
 
+/* Header hover behavior */
 .site-header a:hover {
   color: #445c9a;
   text-decoration: none;
+}
+
+/* =========================
+   Content
+   ========================= */
+
+/* Optional: make body text slightly lighter than header */
+main {
+  font-weight: 400;
 }
