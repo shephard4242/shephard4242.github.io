@@ -5,8 +5,10 @@
         <img src="{{ site.header_image | relative_url }}" alt="Header image"
              style="height:40px;width:auto;border-radius:6px;">
       {% endif %}
-      <span style="font-size:1.2em;font-weight:600;">
+      <a href="{{ '/' | relative_url }}"
+        style="font-size:1.2em;font-weight:600;text-decoration:none;color:inherit;">
         {{ site.title }}
+      </a>
       </span>
     </div>
 
