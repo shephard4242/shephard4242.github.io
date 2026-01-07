@@ -3,17 +3,7 @@
    ========================= */
 
 body {
-  background-color: #D4E2FA; /* page background */
-  font-family: 'Sora', system-ui, sans-serif;
-  margin: 0;
-}
-
-/* =========================
-   Global (entire site)
-   ========================= */
-
-body {
-  background-color: #D4E2FA; /* page background */
+  background-color: #D5D5E6; /* page background */
   font-family: 'Sora', system-ui, sans-serif;
   margin: 0;
   color: #111;
@@ -24,7 +14,7 @@ body {
    ========================= */
 
 .site-header {
-  background-color: #0F1C42; /* dark header */
+  background-color: #17172E; /* dark header */
 }
 
 /* Shared header typography */
