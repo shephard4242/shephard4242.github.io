@@ -10,7 +10,7 @@ body {
 
 /* Header text + nav */
 .site-header a {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 500;
   color: #222;
   text-decoration: none;
