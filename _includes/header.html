@@ -1,12 +1,11 @@
-<header style="border-bottom:1px solid #eee;">
+<header class="site-header" style="border-bottom:1px solid #eee;">
   <div style="max-width:960px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;">
     <div style="display:flex;align-items:center;gap:12px;">
       {% if site.header_image %}
         <img src="{{ site.header_image | relative_url }}" alt="Header image"
              style="height:40px;width:auto;border-radius:6px;">
       {% endif %}
-      <a href="{{ '/' | relative_url }}"
-        style="font-size:1.2em;font-weight:600;text-decoration:none;color:inherit;">
+      <a href="{{ '/' | relative_url }}" class="site-title">
         {{ site.title }}
       </a>
       </span>
