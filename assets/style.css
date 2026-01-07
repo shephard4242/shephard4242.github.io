@@ -11,7 +11,7 @@ body {
 
 /* Header text + nav */
 .site-header a {
-  font-weight: 500;
+  font-weight: 700;
   color: #222;
   text-decoration: none;
 }
@@ -23,7 +23,7 @@ body {
 /* Site title (your name) */
 .site-title {
   font-size: 1.2em;
-  font-weight: 600;
+  font-weight: 700;
 }
   
 /* Header font weight + family */
