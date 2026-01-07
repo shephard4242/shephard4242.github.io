@@ -6,6 +6,7 @@ body {
 /* Header background */
 .site-header {
   background-color: #001533;   /* header background */
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Header text + nav */
