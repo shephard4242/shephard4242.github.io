@@ -1,17 +1,16 @@
 /* Global background */
 body {
-  background-color: #ABB5C9;   /* page background */
+  background-color: #ABB5C9;   /* page background */"
+  font-family: 'Space Grotesk', system-ui, sans-serif;
 }
 
 /* Header background */
 .site-header {
   background-color: #D4E2FA;   /* header background */
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* Header text + nav */
 .site-header a {
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 500;
   color: #222;
   text-decoration: none;
