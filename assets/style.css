@@ -16,7 +16,7 @@ body {
   background-color: #D4E2FA; /* header background */
 }
 
-/* Header typography (name + nav) */
+/* Header typography (shared) */
 .site-header,
 .site-header a,
 .site-title {
@@ -26,11 +26,21 @@ body {
   text-decoration: none;
 }
 
+/* Site title (your name) */
+.site-title {
+  font-size: 1.6rem;
+}
+
+/* Navigation links */
+.site-header a {
+  font-size: 1rem;
+}
+
 /* Header hover behavior */
 .site-header a:hover {
   color: #445c9a;
-  text-decoration: none;
 }
+
 
 /* =========================
    Content
