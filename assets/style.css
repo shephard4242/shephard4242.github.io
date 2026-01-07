@@ -9,17 +9,26 @@ body {
 }
 
 /* =========================
+   Global (entire site)
+   ========================= */
+
+body {
+  background-color: #D4E2FA; /* page background */
+  font-family: 'Sora', system-ui, sans-serif;
+  margin: 0;
+  color: #111;
+}
+
+/* =========================
    Header
    ========================= */
 
 .site-header {
-  background-color: #0F1C42; /* header background */
+  background-color: #0F1C42; /* dark header */
 }
 
-/* Header typography (shared) */
-.site-header,
-.site-header a,
-.site-title {
+/* Shared header typography */
+.site-header a {
   font-family: 'Sora', system-ui, sans-serif;
   font-weight: 700;
   color: #FFFFFF;
@@ -27,26 +36,24 @@ body {
 }
 
 /* Site title (your name) */
-.site-title {
+.site-header .site-title {
   font-size: 2rem;
 }
 
 /* Navigation links */
-.site-header a {
+.site-header nav a {
   font-size: 1rem;
 }
 
 /* Header hover behavior */
 .site-header a:hover {
-  color: #445c9a;
+  color: #C7D2FF;
 }
-
 
 /* =========================
    Content
    ========================= */
 
-/* Optional: make body text slightly lighter than header */
 main {
   font-weight: 400;
 }
