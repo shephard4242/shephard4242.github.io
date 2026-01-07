@@ -1,13 +1,18 @@
-<header style="display:flex;align-items:center;justify-content:space-between;padding:16px 0;border-bottom:1px solid #eee;">
-  <div style="display:flex;align-items:center;gap:12px;">
-    {% if site.header_image %}
-      <img src="{{ site.header_image | relative_url }}" alt="Header image" style="height:48px;width:auto;border-radius:6px;">
-    {% endif %}
-    <strong>{{ site.title }}</strong>
-  </div>
+<header style="border-bottom:1px solid #eee;">
+  <div style="max-width:960px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      {% if site.header_image %}
+        <img src="{{ site.header_image | relative_url }}" alt="Header image"
+             style="height:40px;width:auto;border-radius:6px;">
+      {% endif %}
+      <span style="font-size:1.2em;font-weight:600;">
+        {{ site.title }}
+      </span>
+    </div>
 
-  <nav style="display:flex;gap:16px;">
-    <a href="{{ '/' | relative_url }}">Home</a>
-    <a href="{{ '/contact/' | relative_url }}">Contact</a>
-  </nav>
+    <nav style="display:flex;gap:20px;font-size:.95em;">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    </nav>
+  </div>
 </header>
