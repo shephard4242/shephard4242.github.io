@@ -1,19 +1,13 @@
-<header class="site-header" style="border-bottom:1px solid #eee;">
-  <div style="max-width:960px;margin:0 auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;">
-    <div style="display:flex;align-items:center;gap:12px;">
-      {% if site.header_image %}
-        <img src="{{ site.header_image | relative_url }}" alt="Header image"
-             style="height:40px;width:auto;border-radius:6px;">
-      {% endif %}
-      <a href="{{ '/' | relative_url }}" class="site-title">
-        {{ site.title }}
-      </a>
-      </span>
-    </div>
+---
+layout: default
+---
+<article class="project-page">
+  <header>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="project-subtitle">{{ page.description }}</p>
+    {% endif %}
+  </header>
 
-    <nav style="display:flex;gap:20px;font-size:.95em;">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/contact/' | relative_url }}">Contact</a>
-    </nav>
-  </div>
-</header>
+  {{ content }}
+</article>
